@@ -1,11 +1,12 @@
-package new_Package.salary_Package;
+package Lesson3.salary_Package;
 
-public class Salary_start {
+public class SalaryStart {
    //tax 20% in decimal
-    static final float tax = 0.20f;
+    static final float STANDART_TAX = 0.20f;
     static double grossSalaryPerHour;
     static float workHour;
     static float hourlyWage;
+
     //Method to calculate Salary per day
     public static double calcSalaryPerDayNet(float hourlyWage,float workHour){
         double salaryGrossPerDay;
@@ -14,6 +15,6 @@ public class Salary_start {
         }
         salaryGrossPerDay = hourlyWage * workHour;
       // Net Salary = Gross Salary - (Gross Salary * Tax Rate)
-        return salaryGrossPerDay - (salaryGrossPerDay * tax);
+        return salaryGrossPerDay - (salaryGrossPerDay * STANDART_TAX);
     }
 }
