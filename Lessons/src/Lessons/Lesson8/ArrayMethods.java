@@ -51,7 +51,7 @@ class ArrayMethods {
             if (min > arr) min = arr;
             if (max < arr) max = arr;
         }
-        return String.format("Minimum is: %d, Maximum number is: %d",min,max);
+        return String.format("Minimum number is: %d, Maximum number is: %d",min,max);
     }
     //TODO 4 Write a Java program to test if an array contains a specific value.
     static final boolean containsElement(int[] array, int value){
@@ -61,8 +61,5 @@ class ArrayMethods {
         }
         return false;
     }
-    @Override
-    public String toString() {
-        return super.toString();
-    }
+
 }

@@ -16,5 +16,8 @@ public class PracticeWithArray {
         System.out.println(Arrays.toString(result));
         System.out.println("Test 3");
         System.out.println(ArrayMethods.containsElement(arr1, 1));
+        System.out.println("Test 4");
+        System.out.println(ArrayMethods.findMaxAnMin(arr1));
+
     }
 }
